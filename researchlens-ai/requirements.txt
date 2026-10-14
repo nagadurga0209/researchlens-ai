@@ -1,0 +1,27 @@
+# ResearchLens AI — dependencies
+# Pinned to major.minor ranges that are known to work together.
+
+# Web interface
+streamlit>=1.36,<2.0
+
+# PDF text extraction
+PyMuPDF>=1.24,<2.0
+
+# Embeddings (sentence-transformers pulls in torch + transformers)
+sentence-transformers>=3.0,<4.0
+
+# Vector similarity search (CPU build)
+faiss-cpu>=1.8,<2.0
+
+# LLM provider (Gemini). Swapable — see rag_pipeline.py / llm_providers.py
+google-generativeai>=0.7,<0.9
+
+# Data handling & evaluation tables
+pandas>=2.0,<3.0
+numpy>=1.26,<3.0
+
+# Environment variables
+python-dotenv>=1.0,<2.0
+
+# Testing
+pytest>=8.0,<9.0
