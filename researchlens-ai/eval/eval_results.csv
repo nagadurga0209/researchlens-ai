@@ -1,5 +1,0 @@
-chunk_size,overlap,top_k,mean_precision@k,mean_recall@k,MRR,mean_latency_ms,citation_coverage
-400,80,3,0.233,0.7,0.417,0.1,0.7
-800,150,3,0.233,0.7,0.417,0.0,0.7
-800,150,5,0.185,0.9,0.467,0.1,0.9
-1200,200,5,0.185,0.9,0.467,0.0,0.9
